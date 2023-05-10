@@ -9,7 +9,7 @@ var db  *gorm.DB
 
 type File struct{
 	gorm.Model
-	Name string `gorm: ""json :"name"`
+	Name string `gorm: ""json1 :"name"`
 }
 
 func init(){
